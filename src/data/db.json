@@ -1,19 +1,6 @@
 {
   "usuarios": [
     {
-      "id": 1,
-      "usu_nome": "Jerrold Jursch",
-      "usu_email": "jerrold.jursch@uol.com.br",
-      "usu_nivel": "admin",
-      "usu_senha": "u1234",
-      "usu_emailconfirmado": true,
-      "usu_celular": "(15)99548-5236",
-      "usu_cpf": "045.387.160-57",
-      "usu_cadastroativado": true,
-      "usu_created_at": "2020-09-19T14:54:35Z",
-      "usu_updated_at": "2020-11-19T19:52:07Z"
-    },
-    {
       "id": 2,
       "usu_nome": "Germain Patty",
       "usu_email": "germain.patty@google.com",
@@ -53,6 +40,21 @@
       "created_at": "2022-11-03T09:24:03.995Z",
       "updated_at": "",
       "id": 4
+    },
+    {
+      "usu_email": "nada@nada.com",
+      "usu_senha": "qQ1234!",
+      "usu_nome": "Teste",
+      "usu_nivel": "comum",
+      "usu_celular": "",
+      "usu_cpf": "",
+      "usu_foto": "",
+      "usu_chave": "0rtAWd1Fit",
+      "usu_emailconfirmado": false,
+      "usu_cadastroativo": false,
+      "created_at": "2023-08-09T11:01:37.645Z",
+      "updated_at": "2023-08-09T11:14:59.728Z",
+      "id": 5
     }
   ],
   "projetos": [
@@ -128,13 +130,6 @@
     }
   ],
   "usuariosprojetos": [
-    {
-      "id": 1,
-      "usuario_id": 1,
-      "projeto_id": 1,
-      "created_at": "2021-02-02T01:31:54Z",
-      "updated_at": null
-    },
     {
       "id": 2,
       "usuario_id": 2,
